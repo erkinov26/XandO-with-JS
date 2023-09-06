@@ -9,6 +9,7 @@ let info2Number = document.querySelector("#info2Number");
 let xIcon = "X";
 let X = 0;
 let O = 0;
+console.log("🚀 ~ file: index.js:12 ~ O:", O)
 
 box.forEach((e) => {
   e.onclick = () => {
