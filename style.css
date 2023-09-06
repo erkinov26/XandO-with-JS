@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+
+h1{
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.myDiv{
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+.mainBox{
+    margin: 60px auto;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: wrap ;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    color: white;
+    font-size: 80px;
+    cursor:pointer;
+}
+
+#info1,#info2,#info3{
+    cursor: pointer;
+}
+
+#box1,#box2,#box3{
+    border-top: none;
+}
+#box1,#box4,#box7{
+    border-left: none;
+}
+#box7,#box8,#box9{
+    border-bottom: none;
+}
+#box3,#box6,#box9{
+    border-right: none;
+}
+
+.bottomSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info2, #info3{
+    opacity: 0.5;
+}
+
+
+#resetBtn{
+    padding: 15px 30px;
+    background-color:rgb(172, 255, 172);
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    margin-top: 25px;
+    cursor:pointer;
+}
