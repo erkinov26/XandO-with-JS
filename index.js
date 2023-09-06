@@ -11,7 +11,7 @@ let X = 0;
 let O = 0;
 
 
-
+console.log("sdfs");
 
 box.forEach((e) => {
   e.onclick = () => {
